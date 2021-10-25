@@ -1,0 +1,369 @@
+.container__seção--titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D4E9D9;
+    border-top: 80px solid #86c594;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    padding: 20px;
+    height: 400px;
+}
+
+.seção__titulo--div{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 40%;
+}
+
+.seção__titulo{
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+    color:rgb(8, 37, 13);
+    font-family: 'Style Script', cursive;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.seção__titulo--img{
+    width: 440px;
+}
+
+
+
+/* ----------------------discentes---------------- */
+.seção__envolvidos{
+    background-color: #bef0c89a;
+    width: 85%;
+    height: 700px;
+    border-top: solid 10px #42c042;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+.seção__discentes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.seção__discentes--titulo{
+    background-color:#42c042;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 15px;
+    height: 20px;
+    width: 15%;
+    text-align: center;
+    color:#003803;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+.seção__discentes--divisao{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.discentes__foto--rafael{
+    width: 210px;
+    height: 250px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.discentes__foto--rebecka{
+    width: 230px;
+    height: 250px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.discentes__foto--sophya{
+    width: 230px;
+    height: 250px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.discentes__nome{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-family: 'Hina Mincho', serif;
+    font-size:21px;
+    text-align: center;
+    justify-content: center;
+    background-color: #63f063a2;
+    width: 180px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.discentes__descrição{
+    text-align: justify;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contatos{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #59ff5936;
+    box-shadow: inset 0 0 1em #32ee586b;
+}
+
+.contatos__email{
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    background-color: #3ec03ea2;
+    padding: 10px;
+    font-family:  'Quicksand', sans-serif;
+}
+
+.contatos__icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.icone-github{
+    width: 45px;
+    padding: 0px 8px 0px;
+}
+
+.icone-github:hover{
+    transform: scale(1.1);
+}
+
+.icone-instagram{
+    width: 45px;
+    padding: 0px 8px 0px;
+    height: 38px;
+}
+
+.icone-instagram:hover{
+    transform: scale(1.1);
+}
+
+.icone-linkedin{
+    width: 45px;
+    padding: 0px 8px 0px;
+}
+
+.icone-linkedin:hover{
+    transform: scale(1.1);
+}
+.icone-curriculo{
+    width: 45px;
+    padding: 0px 8px 0px;
+}
+
+.icone-curriculo:hover{
+    transform: scale(1.1);
+}
+
+.icone-instagram{
+    width: 45px;
+    height: 45px;
+    padding: 0px 8px 0px;
+}
+
+.icone-instagram:hover{
+    transform: scale(1.1);
+}
+
+.icone-facebook{
+    width: 45px;
+    padding: 0px 8px 0px;
+}
+
+.icone-facebook:hover{
+    transform: scale(1.1);
+}
+
+/* ----------------- DOCENTES ---------------- */
+
+.seção__docentes--titulo{
+    background-color:#42c042;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    height: 40px;
+    width: 240px;
+    text-align: center;
+    justify-content: center;
+    color:#062e06;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.seção__envolvidos--docentes{
+    background-color: #abf1ab31;
+    width: 85%;
+    height: 700px;
+    border-top: solid 10px #42c042;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+.seção__docentes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seção__docentes--delmir{
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.seção__docentes--fabio{
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto__delmir{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.foto__fabio{
+    width: 300px;
+    height: 290px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nome__delmir{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-family: 'Hina Mincho', serif;
+    font-size:21px;
+    text-align: center;
+    background-color: #63f063a2;
+    width: 200px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+}
+
+.nome__fabio{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-family: 'Hina Mincho', serif;
+    font-size:21px;
+    text-align: center;
+    justify-content: center;
+    background-color: #63f063a2;
+    width: 210px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.descrição__delmir{
+    text-align: justify;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descrição__fabio{
+    text-align: justify;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    width: 288px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1000px){
+
+    .seção__discentes{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+        height: 1800px;
+    }
+
+    .seção__discentes--divisao{
+        width: 50%;
+        padding: 25px;
+    }
+
+    .header__div{
+        flex-direction: column;
+    }
+}
+
+

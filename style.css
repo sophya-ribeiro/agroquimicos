@@ -1,0 +1,187 @@
+*{
+    color:#002002;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+body{
+    color:#002002;
+}
+
+header{
+    padding: 0;
+    background-color: #82f08b;
+    box-shadow: 0px 0px 5px 0px #1a962248;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.header__header{
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+
+.header__div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 650px;
+}
+
+.header__icone{
+    width: 58px;
+    padding: 2px;
+    margin: 10px;
+    opacity: 85%;
+}
+
+.header__span{
+    margin-left: 12px;
+    color: #0d4911
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: #0d4911;
+    text-shadow: 4px 2px 3px #98da9d;
+}
+
+nav{
+    align-items: center;
+    display: flex; 
+    flex: 1;
+    margin-right: 10px;
+    justify-content: right;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+ul{
+    justify-content: flex-end!important;
+    display: flex;
+    margin: 0 auto; 
+}
+
+.nav__lista{
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    margin-left: 14px;
+    margin-right: 5px;
+    font-family:'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav__lista--inicio{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--quemsomos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--quemsomos:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--contatos{
+    text-decoration: none;
+    color: #ecfff0;
+    font-size: 16px;
+    background-color: #16581acb;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px; 
+    padding-right: 5px; 
+    margin-right: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nav__lista--contatos:hover{
+    background-color: #188b20cb;   
+}
+
+/* -------------------- Footer ---------------------- */
+
+footer{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 400px;
+    background-color: #82f08b;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer__logo{
+    width: 98px;
+    height: 85px;
+    align-items: center;
+}
+
+.footer__creditos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#183118;
+    font-weight: 600;
+}
+
+.footer__creditos--copyright{
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 500;
+}
+
+.footer__creditos--freepik{
+    font-size: 14px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 600;
+}
+
+.espaço{
+    color: white;
+    margin-top:120px;
+
+}
+
+/* ------------------------ Responsividade ----------------- */
+
+@media screen and (max-width: 1200px) {
+    
+    .header__header{
+        height: 100px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,84 @@
+*{
+    color:#002002;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+body{
+    color:#002002;
+    background: rgb(248,255,154);
+    background: linear-gradient(90deg, rgba(248,255,154,1) 0%, rgba(181,255,180,1) 51%, rgba(18,240,74,1) 100%);
+}
+
+.div__mensagem{ 
+    padding: 18px;
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.87);
+    box-shadow: 1px 1px 10px #02750a2a;
+    border-top: solid 15px #48c951b9;
+}
+
+.div__icone{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+span{
+    margin-left: 12px;
+    color: #0d4911
+}
+
+.icone{
+    width: 58px;
+    padding: 2px;
+    margin: 10px;
+    opacity: 85%;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: #0d4911;
+    text-shadow: 3px 1px 2px #98da9d8f;
+}
+
+h2{
+    padding-top: 40px;
+    font-size: 25px;
+    text-shadow: 1px 2px 1px #93ff9a5e;
+    color:#025809;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding-top:10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+button{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 19px;
+    background-color: #b1ffb8;
+    border: none;
+    color:#025809;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+button:hover{
+    transform: scale(1.01);
+}
