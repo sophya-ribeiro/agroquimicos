@@ -9,8 +9,7 @@ body{
 
 header{
     padding: 0;
-    background-color: #82f08b;
-    #eff6fc;
+    background-color: #acfcb2;
     position: fixed;
     top:0;
     left: 0;
@@ -21,13 +20,13 @@ header{
     display: flex;
     align-items: center;
     height: 85px;
+    justify-content: space-between;
 }
 
 .header__div{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-right: 650px;
 }
 
 .header__icone{
@@ -53,11 +52,9 @@ h1{
 nav{
     align-items: center;
     display: flex; 
-    flex: 1;
     margin-right: 10px;
     justify-content: right;
-    max-width: 100%;
-    width: 100%;
+    
 }
 
 ul{
@@ -84,6 +81,17 @@ ul{
     text-decoration: none;
     color: #063509;
     text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--agrotoxicos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--agrotoxicos:hover{
+    color: #2b6d2b; 
 }
 
 .nav__lista--quemsomos{
@@ -123,7 +131,7 @@ footer{
     padding-top: 10px;
     display: flex;
     margin-top: 400px;
-    background-color: #82f08b;
+    background-color: #acfcb2;
     justify-content: center;
     align-items: center;
     width: 100%;

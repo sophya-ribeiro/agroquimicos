@@ -90,35 +90,34 @@ h1{
 .seçao__conteudo{
     margin: 20px;
     align-items: center;
-    width: 100%;
+    width: 96%;
     justify-content: space-around;
 }
 
 .seçao__conteudo--linha{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 140px;
-    padding: 20px;
 }
 
 .seçao__grupos{
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
     align-items: center;
 }
 
 .seçao__grupos--img{
-    width: 150px;
+    width: 180px;
     padding: 20px;
 }
 
 .seçao__grupos--nome{
     text-align: center;
     font-family: 'Parisienne', cursive; 
-    font-size: 30px;
+    font-size: 32px;
     padding: 5px;
     font-weight: 500;
 }
@@ -126,7 +125,7 @@ h1{
 .seçao__grupos--integrantes{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px;
     font-weight: 400;
 }
