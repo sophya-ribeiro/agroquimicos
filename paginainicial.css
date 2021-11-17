@@ -1,61 +1,97 @@
-
-
 .header__header{
-    background-color: #d2ffd6;
+    background-color: #eff6fc;
     width: 100%;
-    height: 120px;
+    height: 110px;
     display: flex;
     margin: 0 auto;
     position: fixed;
     top:0;
     left: 0;
+    box-shadow: 0px 0px 10px 0px #9bc6eb4b;
 }
 
 .header__div{
     width: 100%;
     display: flex;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
+    flex-direction: column;
 }
 
 .header__icone{
     width: 80px;
-    padding: 10px;
+    padding: 4px;
 }
 
 h1{
-    margin-left: 30px;
+   font-size: 45px; 
+   font-family: 'Parisienne', cursive; 
+   padding: 2px;
+   color: #6780dd;
 }
 
-.seção__paragrafo{
-    width: 80%;
+.header__titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
     padding: 10px;
-    margin-bottom: 50px;
+    font-weight: 400;
 }
 
-h2{
-    margin-top: 150px;
-    font-size: 24px;
-    font-family: 'Patua One', cursive;
-    margin-bottom: 20px;
+.seçao__paragrafo{
+    background-color: #E3E9FF;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.seçao__paragrafo--div{
+    width: 42%;
+    margin-top: 80px;
+}
+
+.seçao__paragrafo--img{
+    margin-top: 80px;
+}
+
+.seçao__paragrafo--titulo{
+    margin-top: 50px;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
     padding: 10px;
+    text-align: center;
+    color: #90a3ee;
+    line-height: 35px;
 }
 
 .paragrafo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.seçao__paragrafo-img{
+    width: 540px;
+}
+
+.italico{
+    font-style: italic;
 }
 
 /* ------------------ Footer ------------ */
 
 .links{
-    color: #165c1c;
+    color: #0a3e57;;
 }
 
 .links:hover{
-    color: #0bac18;
+    color: #0692d3;;
 }
 
 
@@ -63,7 +99,7 @@ footer{
     padding-top: 10px;
     display: flex;
     margin-top: 400px;
-    background-color: #d2ffd6;
+    background-color: #E3E9FF;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -77,7 +113,7 @@ footer{
 }
 
 .footer__logo{
-    width: 98px;
+    width: 94px;
     height: 85px;
     align-items: center;
     padding: 10px;
