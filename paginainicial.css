@@ -77,8 +77,9 @@ h1{
     text-align: center;
 }
 
-.seçao__paragrafo-img{
-    width: 540px;
+.paragrafo__img{
+    margin-top: 300px;
+    width: 500px;
 }
 
 .italico{
@@ -188,4 +189,37 @@ footer{
     font-family: 'Quicksand', sans-serif;
     color:#29462b;
     font-weight: 600;
+}
+
+
+/* ---------------- Responsividade -------------------- */
+
+@media screen and (max-width: 360px) {
+    
+    .header__header{
+       height: 200px;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+
+    .header__titulo{
+        font-size: 25px;
+    }
+
+    .seçao__paragrafo{
+        height: 1000px;
+        margin-top: 200px;
+        flex-direction: column;
+    }
+
+    .seçao__paragrafo-img{
+        margin-top: 90px;
+        width: 300px;
+    }
+
+    .seçao__paragrafo--titulo{
+        font-size: 20px;
+    }
 }
