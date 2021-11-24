@@ -6,7 +6,7 @@
 body{
     color:#002002;
     background: rgb(248,255,154);
-    background: linear-gradient(90deg, rgba(248,255,154,1) 0%, rgba(181,255,180,1) 51%, rgba(18,240,74,1) 100%);
+    background: linear-gradient(90deg, rgba(248,255,154,1) 0%, rgb(173, 255, 171) 51%, rgb(95, 206, 123) 100%);
 }
 
 .div__mensagem{ 
@@ -70,7 +70,7 @@ p{
 button{
     margin-top: 40px;
     height: 50px;
-    width: 200px;
+    width: 250px;
     font-size: 19px;
     background-color: #b1ffb8;
     border: none;

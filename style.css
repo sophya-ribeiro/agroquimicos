@@ -58,7 +58,7 @@ nav{
 }
 
 ul{
-    justify-content: flex-end!important;
+    justify-content: flex-end;
     display: flex;
     margin: 0 auto; 
 }
