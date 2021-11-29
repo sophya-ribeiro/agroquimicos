@@ -125,6 +125,73 @@ ul{
     background-color: #188b20cb;   
 }
 
+/* -------------------- Conteudo -------------------- */
+
+h3{
+    padding-top: 40px;
+}
+
+.seçao__definiçao{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.seçao__definiçao--div{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seçao__historia{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: left;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+}
+
+.seçao__utilizaçao{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+}
+
+.seçao__efeitos{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+}
+
+.seçao__tipos{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+}
+
+.seçao__tipos--paragrafos{
+    padding: 20px;
+}
+
+.paragrafoss__span{
+    font-size:20px;
+    font-weight: 600;
+}
+
 /* -------------------- Footer ---------------------- */
 
 footer{
@@ -148,6 +215,7 @@ footer{
     width: 98px;
     height: 85px;
     align-items: center;
+    padding: 5px;
 }
 
 .footer__creditos{
@@ -180,6 +248,7 @@ footer{
     margin-top:120px;
 
 }
+
 
 /* ------------------------ Responsividade ----------------- */
 
