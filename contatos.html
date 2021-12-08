@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -135,4 +136,143 @@
     </footer>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contatos.css">
+    <script src="script.js"></script> 
+    <link rel="icon" href="Imagens/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Open+Sans+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&family=Montserrat:wght@200;300;400;500;600&family=Patua+One:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Agroquímicos | Contatos</title>
+</head>
+
+<body>
+    <header class="header__header">
+        <div class="header__div">
+            <img class="header__icone" src="Imagens/icon.png" alt="Icone agrotóxico">
+            <h1> Agroquímicos</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="nav__lista"><a href="paginainicial.html" class="nav__lista--inicio">Início</a></li>
+                <li class="nav__lista"><a href="index.html" class="nav__lista--agrotoxicos">Agrotóxicos</a></li>
+                <li class="nav__lista"><a href="exemplos.html" class="nav__lista--exemplos">Exemplos</a></li>
+                <li class="nav__lista"><a href="referencias.html" class="nav__lista--referencias">Referências</a></li>
+                <li class="nav__lista"><a href="quemsomos.html" class="nav__lista--quemsomos">Quem somos?</a></li>
+                <li class="nav__lista"><a href="contatos.html" class="nav__lista--contatos">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="container__seção--titulo">
+            <div class="seção__titulo--div">
+                <h2 class="seção__titulo"> Tem algo a nos dizer? </h2> 
+            </div>
+            <div>
+                <img src="Imagens/contato-img.jpg" alt="Imagem de início representando comunicação"  class="seção__titulo--img">
+            </div>
+        </section>
+
+        <section class="container__seção--contato">
+            <div class="form__contato">
+                <form action="contatoResposta.html" method="POST" id="formContato" onsubmit="return validarMensagem();">
+                    <legend>Envie-nos uma mensagem:</legend>
+                    <fieldset class="fieldset__contato">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome Sobrenome" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+                        <label for="numero">Número</label>
+                        <input type="tel" name="numero" id="numero" MAXLENGTH=11 class="form__numero"
+                            placeholder="(67) 9 4002-8922" required>
+
+                        <label for="mensagem">Mensagem<br></label> 
+                        <textarea name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem" cols="30"
+                            rows="7"></textarea>
+                        <!-- tem que fazer js pra essa parte tb se tornar required -->
+                    </fieldset>
+
+                    <div class="div__button">
+                        <input type="submit" value="Enviar Mensagem" class="input__botao">
+                    </div>
+                </form>
+            </div>
+
+            <div class="seção__localização">
+                
+                <h3 class="localização__nome">Instituto Federal de Educação, Ciência e Tecnologia do Mato Grosso do Sul - campus Campo Grande</h3>
+                <div class="localização__mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14952.722216073276!2d-54.6545886!3d-20.4577761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d0c613c9cd5a2f4!2sInstituto%20Federal%20de%20Mato%20Grosso%20do%20Sul%20(IFMS)!5e0!3m2!1spt-BR!2sbr!4v1633543555992!5m2!1spt-BR!2sbr"
+                        width="250" height="400" style="border:0;"></iframe>
+                </div>
+
+                <div class="localização__endereço">
+                    <p class="localização__endereço">Rua Taquarí, 831 - Santo Antonio</p>
+                    <p class="localização__endereço"> Campo Grande - MS</p>
+                    <p class="localização__endereço">79100-510</p>
+                </div>
+                <p class="localização__telefone"> <a href="callto:(67) 3357-8501" target="blank" class="localização__meios">(67) 3357-8501</a></p>
+            
+                <p class="localização__meios"><a class="localização__meios" href="mailto:dirge.cg@ifms.edu.br?subject=E-mail" rel="noopener" target="_blank" title="dirge.cg@ifms.edu.br" data-mce-href="mailto:dirge.cg@ifms.edu.br?subject=E-mail">dirge.cg@ifms.edu.br</a></p>
+                <ul class="localização__contatos">
+                    <li> <a href="https://www.ifms.edu.br/" target="blank"> <img alt="Icone com 'IF'" src="Imagens/icon-if.png" class="localização__icone"> </a> </li>
+                    <li> <a href="https://www.facebook.com/ifms.oficial" target="blank"> <img alt="Icone do Facebook" src="Imagens/icon-facebook.png" class="localização__icone"> </a> </li>
+                    <li> <a href="https://www.instagram.com/ifms.oficial/" target="blank"> <img alt="Icone do Instagram" src="Imagens/icon-instagram.png" class="localização__icone"> </a> </li>
+                </ul>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <a href="https://www.ifms.edu.br/" target="blank">
+            <img src="Imagens/ifms-logo.png" alt="Logo IFMS" class="footer__logo">
+        </a>
+        <div class="footer__div">
+            <p class="footer__creditos"> Feito para a disciplina de Desenvolvimento Web 1 e Química 5 |
+                Novembro de 2021 </br> </p>
+        <p class="footer__creditos--freepik">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+            <p class="footer__creditos--copyright"> © Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+</body>
+
+>>>>>>> 51a3555fb34738e34c5b137cdd75d205e610e4e5
 </html>
