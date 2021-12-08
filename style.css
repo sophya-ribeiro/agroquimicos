@@ -94,16 +94,38 @@ ul{
     color: #2b6d2b; 
 }
 
-.nav__lista--quemsomos{
+.nav__lista--exemplos{
     padding: 5px;
     text-decoration: none;
     color: #063509;
     text-shadow: 1px 1px #8fc592d0;
 }
 
+.nav__lista--exemplos:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--referencias{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--referencias:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--quemsomos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
 .nav__lista--quemsomos:hover{
     color: #2b6d2b; 
 }
+
 
 .nav__lista--contatos{
     text-decoration: none;
@@ -125,71 +147,99 @@ ul{
     background-color: #188b20cb;   
 }
 
+.container__seção--titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #defde5;
+    border-top: 50px solid #82df96;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    padding: 20px;
+    height: 400px;
+}
+
+.seção__titulo--div{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 40%;
+}
+
+.seção__titulo{
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+    color:rgb(8, 37, 13);
+    font-family: 'Style Script', cursive;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+
+.seção__titulo--img{
+    width: 420px;
+}
+
+
+
 /* -------------------- Conteudo -------------------- */
 
 h3{
-    padding-top: 40px;
+    color:rgb(8, 37, 13);
+    font-family: 'Parisienne', cursive;
+    line-height: 1.25;
+    font-weight: 500;
+    font-size: 43px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 15px;
 }
 
-.seçao__definiçao{
+.seçao__conteudo{
     display: flex;
-    width: 100%;
+    flex-direction: column;
     justify-content: left;
-}
-
-.seçao__definiçao--div{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    flex-direction: column;
-}
-
-.seçao__historia{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: left;
-    flex-direction: column;
-    width: 70%;
-    padding: 50px;
-}
-
-.seçao__utilizaçao{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    flex-direction: column;
-    width: 70%;
-    padding: 50px;
-}
-
-.seçao__efeitos{
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-    width: 70%;
-    padding: 50px;
-}
-
-.seçao__tipos{
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: right;
-    flex-direction: column;
-    width: 70%;
-    padding: 50px;
+    align-items: left;
+    
 }
 
 .seçao__tipos--paragrafos{
-    padding: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 18px;
+    text-align: justify ;
+    margin-bottom: 60px;  
+    line-height: 35px;
+    width: 75%;
 }
 
 .paragrafoss__span{
-    font-size:20px;
-    font-weight: 600;
+    font-size:22px;
+    font-weight: 500;
+    color: #4da555;
+    /* text-decoration:underline; */
+}
+
+.paragrafoss__span--tipos{
+    font-size:24px;
+    font-weight: 500;
+    color: #1e6924;
+}
+
+.conteudo__paragrafos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 18px;
+    text-align: justify ;
+    margin-bottom: 90px;  
+    line-height: 32px;
+    width: 75%;
 }
 
 /* -------------------- Footer ---------------------- */
@@ -197,7 +247,7 @@ h3{
 footer{
     padding-top: 10px;
     display: flex;
-    margin-top: 400px;
+    margin-top: 300px;
     background-color: #acfcb2;
     justify-content: center;
     align-items: center;
@@ -242,13 +292,6 @@ footer{
     color:#29462b;
     font-weight: 600;
 }
-
-.espaço{
-    color: white;
-    margin-top:120px;
-
-}
-
 
 /* ------------------------ Responsividade ----------------- */
 

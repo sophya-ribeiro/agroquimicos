@@ -22,20 +22,3 @@ https://reader.elsevier.com/reader/sd/pii/S089203620700356X?token=8814B7A746F07A
     http://sanagua.com.br/noticias/tipos-de-agrotoxicos-mais-utilizados-e-perigosos-183.html
     git commit -m "Versão Inicial"
     
-
-
-    sulfoxaflor
-    classe 
-    URL: https://aguassubterraneas.abas.org/asubterraneas/article/download/29921/19332#:~:text=Dentro%20desse%20espectro%20de%20compostos,Classe%20III%20(medianamente%20t%C3%B3xico).
-
-
-
-    fipronil
-
-    URL: https://www.teses.usp.br/teses/disponiveis/75/75132/tde-21122009-142446/publico/FabianoOkumuraR.pdf
-    URL: https://www.agrolink.com.br/agrolinkfito/produto/fipronil-nortox-800-wg_8706.html
-
-    Carbendazin
-
-    URL: https://www.adapar.pr.gov.br/sites/adapar/arquivos_restritos/files/documento/2020-10/carbendazimnortox.pdf
-    URL: https://pt.wikipedia.org/wiki/Carbendazim
