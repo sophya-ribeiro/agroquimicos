@@ -1,0 +1,52 @@
+
+
+.nav__lista--projeto{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--projeto:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--agrotoxicos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--agrotoxicos:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--exemplos{
+    padding: 5px;
+    text-decoration: none;
+    color:  #0a8d12;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+
+.nav__lista--referencias{
+    padding: 5px;
+    text-decoration: none;
+    color:  #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--referencias:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--quemsomos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+.nav__lista--quemsomos:hover{
+    color: #2b6d2b; 
+}

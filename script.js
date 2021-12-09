@@ -13,5 +13,5 @@ function validarMensagem(){
     return ret;
 }
 
-let teste = "meu deus";
-console.log(teste)
+// let teste = "meu deus";
+// console.log(teste)

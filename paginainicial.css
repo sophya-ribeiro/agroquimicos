@@ -1,3 +1,10 @@
+.nav__lista--agrotoxicos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
 .header__header{
     background-color: #eff6fc;
     width: 100%;
