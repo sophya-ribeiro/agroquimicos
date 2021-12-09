@@ -309,4 +309,11 @@ footer{
     .conteudo__paragrafos{
         width: auto;
     }
+
+}
+
+@media screen and (min-width: 700px){
+    p{
+        font-size: 18px;
+    }
 }
