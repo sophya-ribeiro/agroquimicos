@@ -297,7 +297,7 @@ footer{
 
 /* ------------------------ Responsividade ----------------- */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     
     .header__header{
         height: 100px;
@@ -316,4 +316,4 @@ footer{
     p{
         font-size: 18px;
     }
-}
+} */
