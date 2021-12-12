@@ -204,7 +204,7 @@ h3{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    
+    margin-left: 10px;
 }
 
 .seçao__tipos--paragrafos{
