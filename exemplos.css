@@ -54,3 +54,13 @@
 
 /* ---------------- CONTEUDO ----------- */
 
+.seçao__conteudo--exemplo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left:40px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
