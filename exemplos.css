@@ -54,13 +54,54 @@
 
 /* ---------------- CONTEUDO ----------- */
 
+h3{
+    padding-left: 0;
+}
 .seçao__conteudo--exemplo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.conteudo{
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
     margin-left:40px;
     margin-bottom: 50px;
-    width: 80%;
+    width: 56%;
 }
 
+.seção__titulo--img{
+    width: 300px;
+}
+
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.459);
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px; 
+    padding: 4px; 
+}
+
+span{
+  font-weight: 500;  
+}
+
+.estrutura__img{
+    width: 200px;
+}
+.estrutura__titulo{
+    padding-bottom: 55px;
+    font-weight: 500;
+}
