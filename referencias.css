@@ -49,3 +49,48 @@
 .nav__lista--quemsomos:hover{
     color: #2b6d2b; 
 }
+
+h2{
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+    color:rgb(8, 37, 13);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.conteudo__artigo{
+    margin: 30px;
+}
+
+.seção__titulo--img{
+    width: 280px;
+}
+
+button{
+    margin: 10px 10px 10px 0px;
+    background-color: #ACFCB2; 
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    height: 58px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: #e0ffe2;
+}
+
+.seçao__conteudo{
+    width: 70%;
+}
+
+.container__seção--titulo{
+    margin-bottom: 50px;
+}
+
+hr{
+    border: solid 1px #b1d8be62; 
+    height: 1px;
+}
