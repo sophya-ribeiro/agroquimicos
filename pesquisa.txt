@@ -21,4 +21,12 @@ https://reader.elsevier.com/reader/sd/pii/S089203620700356X?token=8814B7A746F07A
     https://reporterbrasil.org.br/2019/01/governo-liberou-registros-de-agrotoxicos-altamente-toxicos/
     http://sanagua.com.br/noticias/tipos-de-agrotoxicos-mais-utilizados-e-perigosos-183.html
     git commit -m "Versão Inicial"
-    
+     
+     link novos
+     https://www.agrolink.com.br/agrolinkfito/produto/vitavax-thiram-wp_7213.html
+
+     http://www.ibama.gov.br/phocadownload/agrotoxicos/perfis-ambientais/2019/Perfil%20Ambiental%20-%20Thiram%20-%2002_10_2019.pdf
+
+     https://carollinasalle.jusbrasil.com.br/noticias/113703087/brasil-consome-14-agrotoxicos-proibidos-no-mundo
+
+     https://www.adapar.pr.gov.br/sites/adapar/arquivos_restritos/files/documento/2020-10/acefatonortox0420.pdf
